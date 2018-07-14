@@ -1,0 +1,25 @@
+{
+  "name": "nodebb-plugin-testmehard",
+  "version": "1.0.0",
+  "description": "exploring plugin development for nodebb forum engine",
+  "main": "library.js",
+  "scripts": {
+    "test": "inserttestcommandhere"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mutton/nodebb-plugin-testmehard.git"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "test",
+    "testmehard"
+  ],
+  "author": "Florian R. Klein",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mutton/nodebb-plugin-testmehard/issues"
+  },
+  "homepage": "https://github.com/Mutton/nodebb-plugin-testmehard#readme"
+}

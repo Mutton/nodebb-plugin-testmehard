@@ -1,0 +1,14 @@
+{
+    "id": "nodebb-plugin-testmehard",
+    "url": "https://github.com/Mutton/nodebb-plugin-testmehard.git",
+    "library": "./library.js",
+    "hooks": [
+        { "hook": "filter:post.save", "method": "filterPost" }
+    ],
+    "scripts": [
+        "public/src/client.js"
+    ],
+    "acpScripts": [
+        "public/src/admin.js"
+    ]
+}
