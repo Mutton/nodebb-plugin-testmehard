@@ -1,1 +1,1 @@
-console.log("GOTCHA Client!");
+alert("GOTCHA Client!");

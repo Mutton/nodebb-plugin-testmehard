@@ -3,7 +3,8 @@
     "url": "https://github.com/Mutton/nodebb-plugin-testmehard.git",
     "library": "./library.js",
     "hooks": [
-        { "hook": "filter:post.save", "method": "filterPost" }
+        { "hook": "filter:post.save", "method": "filterPost" },
+        { "hook": "action:app.load", "method": "afterAppLoad" }
     ],
     "scripts": [
         "public/src/client.js"

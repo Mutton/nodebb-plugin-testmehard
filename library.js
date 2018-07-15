@@ -1,10 +1,13 @@
-var TestMeHard = {
+(function (Plugin) {
+    'use strict';
 
-  filterPost: function (postData) {
-    console.log(postData);
-    return postData;
-  }
+    Plugin.filterPost = function (data, callback) {
+      console.log(postData);
+      callback(null, postData);
+    };
 
-}
+    Plugin.afterAppLoad = function () {
+      console.log("GOTCHA Function!");
+    };
 
-module.exports = TestMeHard;
+})(module.exports);
